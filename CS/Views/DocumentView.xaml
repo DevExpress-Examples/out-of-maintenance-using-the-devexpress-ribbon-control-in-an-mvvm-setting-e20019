@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="DXRibbonNotepad.Views.DocumentView"
+<UserControl x:Class="DXRibbonNotepad.Views.DocumentView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:cv="clr-namespace:DXRibbonNotepad.Converters"
