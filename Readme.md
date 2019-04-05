@@ -15,9 +15,9 @@
 * [DocumentViewModel.cs](./CS/ViewModels/DocumentViewModel.cs) (VB: [DocumentViewModelFactory.vb](./VB/ViewModels/DocumentViewModelFactory.vb))
 * [DocumentViewModelFactory.cs](./CS/ViewModels/DocumentViewModelFactory.cs) (VB: [DocumentViewModelFactory.vb](./VB/ViewModels/DocumentViewModelFactory.vb))
 * [ViewModelBase.cs](./CS/ViewModels/ViewModelBase.cs) (VB: [ViewModelBase.vb](./VB/ViewModels/ViewModelBase.vb))
-* [DocumentView.xaml](./CS/Views/DocumentView.xaml) (VB: [DocumentView.xaml.vb](./VB/Views/DocumentView.xaml.vb))
+* [DocumentView.xaml](./CS/Views/DocumentView.xaml) (VB: [DocumentView.xaml](./VB/Views/DocumentView.xaml))
 * [DocumentView.xaml.cs](./CS/Views/DocumentView.xaml.cs) (VB: [DocumentView.xaml.vb](./VB/Views/DocumentView.xaml.vb))
-* [MainWindow.xaml](./CS/Views/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/Views/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/Views/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Views/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/Views/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/Views/MainWindow.xaml.vb))
 * [MainWindowResources.xaml](./CS/Views/MainWindowResources.xaml) (VB: [MainWindowResources.xaml](./VB/Views/MainWindowResources.xaml))
 <!-- default file list end -->
