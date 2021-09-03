@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>DXRibbonNotepad</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <Platforms>x86;AnyCPU</Platforms>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <DefaultItemExcludes>obj*/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Pdf.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Ribbon" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="21.1.*-*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\AlignJustify_16x16.png" />
+    <Resource Include="Resources\Icons\bold-16x16.png" />
+    <Resource Include="Resources\Icons\center-align-16x16.png" />
+    <Resource Include="Resources\Icons\close-16x16.png" />
+    <Resource Include="Resources\Icons\close-32x32.png" />
+    <Resource Include="Resources\Icons\copy-16x16.png" />
+    <Resource Include="Resources\Icons\cut-16x16.png" />
+    <Resource Include="Resources\Icons\info-16x16.png" />
+    <Resource Include="Resources\Icons\italic-16x16.png" />
+    <Resource Include="Resources\Icons\left-align-16x16.png" />
+    <Resource Include="Resources\Icons\new-16x16.png" />
+    <Resource Include="Resources\Icons\new-32x32.png" />
+    <Resource Include="Resources\Icons\paste-16x16.png" />
+    <Resource Include="Resources\Icons\right-align-16x16.png" />
+    <Resource Include="Resources\Icons\underline-16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Remove="Views\MainWindowResources.xaml" />
+  </ItemGroup>
+</Project>

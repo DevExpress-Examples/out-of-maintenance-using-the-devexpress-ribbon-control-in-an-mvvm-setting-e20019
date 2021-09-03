@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXRibbonNotepad", "DXRibbonNotepad.csproj", "{09A95C45-1E57-45C9-9054-46C7B191C259}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXRibbonNotepad", "DXRibbonNotepad.Net5.csproj", "{09A95C45-1E57-45C9-9054-46C7B191C259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
